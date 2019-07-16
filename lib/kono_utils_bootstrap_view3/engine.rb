@@ -3,6 +3,7 @@ module KonoUtilsBootstrapView3
 
     require 'kono_utils'
     require 'bootstrap3-datetimepicker-rails'
+    require 'formtastic-bootstrap'
 
   end
 end

@@ -28,6 +28,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "rails", "~> 5.2.3"
   spec.add_dependency "kono_utils"
   spec.add_dependency 'bootstrap3-datetimepicker-rails', '~> 4.17.42'
+  spec.add_dependency 'formtastic-bootstrap', '~>3.1.1'
 
 
   spec.add_development_dependency "sqlite3"
