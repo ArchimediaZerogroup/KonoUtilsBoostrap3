@@ -16,6 +16,11 @@ ActiveRecord::Schema.define(version: 2019_07_16_093114) do
     t.string "username"
     t.string "surname"
     t.string "email"
+    t.text "bio"
+    t.integer "category_id"
+    t.date "birthdate"
+    t.datetime "registration_datetime"
+    t.time "birttime"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

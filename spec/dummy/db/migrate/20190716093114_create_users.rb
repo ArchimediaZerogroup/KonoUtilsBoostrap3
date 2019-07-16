@@ -5,6 +5,13 @@ class CreateUsers < ActiveRecord::Migration[5.2]
       t.string :surname
       t.string :email
 
+      t.text :bio
+      t.integer :category_id
+      t.date :birthdate
+      t.datetime :registration_datetime
+      t.time :birttime
+
+
       t.timestamps
     end
   end
