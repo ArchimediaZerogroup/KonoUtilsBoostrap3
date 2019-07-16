@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.version     = KonoUtilsBoostrapView3::VERSION
   spec.authors     = ["Marino Bonetti"]
   spec.email       = ["marinobonetti@gmail.com"]
-  spec.homepage    = "TODO"
-  spec.summary     = "TODO: Summary of KonoUtilsBoostrapView3."
-  spec.description = "TODO: Description of KonoUtilsBoostrapView3."
+  spec.homepage    = "https://github.com/ArchimediaZerogroup/KonoUtilsBoostrap3"
+  spec.summary     = "Extrapolation of the old view in an external gem"
+  spec.description = "Extrapolation of the old view in an external gem"
   spec.license     = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
