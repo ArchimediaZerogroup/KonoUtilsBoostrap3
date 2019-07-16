@@ -12,4 +12,5 @@
 //
 //= require jquery/dist/jquery
 //= require kono_utils_bootstrap_view3/application
+//= require rails-ujs
 //= require_tree .
