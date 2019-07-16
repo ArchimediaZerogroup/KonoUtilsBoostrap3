@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-# Declare your gem's dependencies in kono_utils_boostrap_view3.gemspec.
+# Declare your gem's dependencies in kono_utils_bootstrap_view3.gemspec.
 # Bundler will treat runtime dependencies like base dependencies, and
 # development dependencies will be added by default to the :development group.
 gemspec
@@ -13,3 +13,9 @@ gemspec
 
 # To use a debugger
 # gem 'byebug', group: [:development, :test]
+
+gem 'listen'
+
+
+gem 'kono_utils',path:"../KonoUtils"
+gem 'kono_utils_helpers',path:"../kono_utils_helpers"

@@ -2,7 +2,7 @@
 
 
 
-# KonoUtilsBoostrapView3
+# KonoUtilsBootstrapView3
 
 
 Short description and motivation.
@@ -14,7 +14,7 @@ How to use my plugin.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'kono_utils_boostrap_view3'
+gem 'kono_utils_bootstrap_view3'
 ```
 
 And then execute:
@@ -24,7 +24,7 @@ $ bundle
 
 Or install it yourself as:
 ```bash
-$ gem install kono_utils_boostrap_view3
+$ gem install kono_utils_bootstrap_view3
 ```
 
 ## Contributing
