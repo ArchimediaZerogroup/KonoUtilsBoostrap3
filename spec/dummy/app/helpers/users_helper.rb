@@ -1,9 +1,9 @@
 module UsersHelper
 
-  def editing_form_print_field(form,field)
+  def editing_form_print_field(form, field)
     case field
-    when :bio
-      content_tag :span,'ciao'
+    when :birthdate
+      form.input field, as: :bs_datepicker, :inject_js => true
     else
       super
     end
