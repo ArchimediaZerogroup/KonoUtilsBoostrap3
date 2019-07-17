@@ -9,4 +9,9 @@ module UsersHelper
     end
   end
 
+
+  def edit_button(path)
+    link_to fa_icon("pencil fw marino", text: "Override Helper"), path, class: 'btn btn-primary btn-xl'
+  end
+
 end
