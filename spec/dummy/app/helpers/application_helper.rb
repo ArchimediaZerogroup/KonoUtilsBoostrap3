@@ -1,3 +1,3 @@
 module ApplicationHelper
-include KonoUtils::ApplicationHelper
+  include KonoUtils::ApplicationHelper
 end
