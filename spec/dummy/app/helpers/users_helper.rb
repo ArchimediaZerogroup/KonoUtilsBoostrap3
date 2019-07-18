@@ -4,6 +4,10 @@ module UsersHelper
     case field
     when :birthdate
       form.input field, as: :bs_datepicker, :inject_js => true
+    when :registration_datetime
+      form.input field, as: :bs_datetimepicker, :inject_js => true
+    when :birttime
+      form.input field, as: :bs_timepicker, :inject_js => true
     else
       super
     end
