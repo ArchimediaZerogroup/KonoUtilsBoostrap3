@@ -12,7 +12,8 @@ module KonoUtilsBootstrapView3
     end
 
     def install_node_dependency
-      run "yarn add patternfly-bootstrap-treeview"
+      yarn_packages = ["patternfly-bootstrap-treeview", "moment"]
+      run "yarn add #{yarn_packages.join(' ')}"
     end
 
   end
