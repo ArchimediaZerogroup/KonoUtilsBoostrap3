@@ -1,0 +1,26 @@
+/*
+*= require bootstrap/dist/css/bootstrap
+*= require bootstrap-datetimepicker
+*= require formtastic-bootstrap
+*= require font-awesome
+*= require kono_utils/core
+*= require_self
+ */
+
+.search_panel {
+  .panel-title {
+    .icon-search {
+      cursor: pointer;
+    }
+  }
+}
+
+.bs_file_download {
+  .form-wrapper {
+    display: block;
+
+    .input-group {
+      width: 100%;
+    }
+  }
+}
