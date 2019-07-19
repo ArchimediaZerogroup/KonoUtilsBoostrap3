@@ -8,7 +8,6 @@ PATH
       pundit (~> 2.0)
       rdiscount
       sass-rails
-      will_paginate (~> 3.1.0)
 
 PATH
   remote: ../kono_utils_helpers
@@ -28,6 +27,7 @@ PATH
       kono_utils
       rails (~> 5.2.3)
       rails-jquery-autocomplete (~> 1.0.3)
+      will_paginate (~> 3.1.0)
       will_paginate-bootstrap
 
 GEM

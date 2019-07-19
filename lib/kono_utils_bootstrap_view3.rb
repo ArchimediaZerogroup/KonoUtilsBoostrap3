@@ -7,5 +7,6 @@ module KonoUtilsBootstrapView3
 
   autoload :ApplicationHelper
   autoload :BaseEditingHelper
+  autoload :PaginateProxer
 
 end
